@@ -13,13 +13,16 @@
     <section class="inicio" id="inicio">
         <div class="contenido-seccion">
           <header>
-    <div class="nav-bar">
+    <div class="nav-bar" onclick="mostrarOcultarMenu()">
     <i class="fa-solid fa-bars"></i>
     </div>
     <nav id="nav" class="nav">
        <a href="#inicio">Inicio</a>
        <a href="#sobremi">Sobre mí</a>
+       <a href="#especialidades">Especialidades</a>
+       <a href="#formacion">Experiencia y formacion laboral</a>
        <a href="#contacto">Contacto</a>
+       </nav>
     </header>
     <div class="info">
     <h1>CHARLIE LYNCH</h1>
@@ -64,6 +67,156 @@
             </div>
         </div>
     </section>
+    <section class="especialidades" id="especialidades">
+        <div class="contenido-seccion">
+            <h2 class="titulo-seccion">Mis Especialidades</h2>
+            <h3>Especilizado en</h3>
+
+            <div class="fila">
+                <div class="col">
+                    <span>HTML</span>
+                    <div class="cont-barra">
+                        <div class="barra" id="html">
+                            
+                        </div>
+                        <span>90%</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <span>JAVASCRIPT</span>
+                    <div class="cont-barra">
+                        <div class="barra" id="javascript">
+                            <div class="e"></div>
+                        </div>
+                        <span>65%</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <span>CSS</span>
+                    <div class="cont-barra">
+                        <div class="barra" id="css">
+                            <div class="e"></div>
+                        </div>
+                        <span>85%</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <span>ENGLISH</span>
+                    <div class="cont-barra">
+                        <div class="barra" id="english">
+                            <div class="e"></div>
+                        </div>
+                        <span>80%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="formacion" id="formacion">
+        <div class="contenido-seccion">
+            <h2 class="titulo-seccion">Resumen</h2>
+            <h3>Mi formacion y Experiencias</h3>
+            <div class="info">
+                <div class="col">
+                    <span class="titulo">Estudios</span>
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>2019 - 2022</h3>
+                            </td>
+                            <td rowspan="2" class="descripcion">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit sapiente, illo repellat provident voluptatibus tempore ab dolorum ut consequuntur iure saepe natus quam et cupiditate. Optio dignissimos qui quibusdam id.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Ciencias de la computación</h4>
+                                <p>Universidad de Buenos Aires</p>
+                                <span class="promedio">8 promedio</span>
+                            </td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>2015 - 2018</h3>
+                            </td>
+                            <td rowspan="2" class="descripcion">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit sapiente, illo repellat provident voluptatibus tempore ab dolorum ut consequuntur iure saepe natus quam et cupiditate. Optio dignissimos qui quibusdam id.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Master de Ingles</h4>
+                                <p>York institute</p>
+                                <span class="promedio">7 promedio</span>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col">
+                    <span class="titulo">Experiencia laboral</span>
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>1 año</h3>
+                            </td>
+                            <td rowspan="2" class="descripcion">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit sapiente, illo repellat provident voluptatibus tempore ab dolorum ut consequuntur iure saepe natus quam et cupiditate. Optio dignissimos qui quibusdam id.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Rockstar games</h4>
+                                <p>Programador junior</p>
+                                
+                            </td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>6 meses</h3>
+                            </td>
+                            <td rowspan="2" class="descripcion">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit sapiente, illo repellat provident voluptatibus tempore ab dolorum ut consequuntur iure saepe natus quam et cupiditate. Optio dignissimos qui quibusdam id.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>IzanagiGames</h4>
+                                <p>Programador principal</p>
+                                
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contacto" id="contacto">
+        <div class="contenido-seccion">
+            <h2 class="contenido-seccion">Contacto</h2>
+            <h3>Contactame!</h3>
+
+            <div class="fila">
+                <div class="col">
+                    <h2>
+                        <i class="fa-solid fa-square-phone"></i> Teléfono
+                    </h2>
+                    <span class="info-contacto">(998) 923-3808</span>
+                </div>
+                <div class="col">
+                    <h2>
+                        <i class="fa-solid fa-envelope"></i>Email
+                    </h2>
+                    <span class="info-contacto">charlie.lynch@example.com</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <script src="app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>

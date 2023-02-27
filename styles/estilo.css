@@ -149,5 +149,178 @@ html{
 .sobremi .contenido-seccion .fila .col span{
     display: block;
     font-weight: bold;
-    margin: 8px;
+    margin: 8px 0;
+}
+
+/* SECCION ESPECIALIDADES */
+.especialidades{
+    padding: 80px 0 100px 0;
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
+    url(https://cdn.pixabay.com/photo/2016/03/26/13/09/workspace-1280538_1280.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    color: #fff;
+}
+.especialidades .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.especialidades .contenido-seccion h3{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.especialidades .contenido-seccion .fila{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.especialidades .contenido-seccion .fila .col{
+    width: 47%;
+    text-align: left;
+}
+.especialidades .contenido-seccion .fila .col .cont-barra{
+    display: flex;
+    align-items: center;
+}
+.especialidades .contenido-seccion .barra{
+    display: flex;
+    border: 1px solid red;
+    padding: 2px;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+.especialidades .contenido-seccion .barra .e{
+    background-color: black;
+    width: 20px;
+    height: 30px;
+    margin-right: 2px;
+}
+/* SECCION RESUMEN */
+.formacion{
+    background-color: #e6e6e6;
+    padding: 140px 0 100px 0;
+    text-align: center;
+}
+.formacion .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.formacion .contenido-seccion h3{
+text-transform: uppercase;
+font-size: 30px;
+}
+.formacion .contenido-seccion .info{
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.formacion .contenido-seccion .info .col{
+    width: 45%;
+}
+.formacion .contenido-seccion .info .col .titulo{
+    display: inline-block;
+    color: red;
+    font-weight: bold;
+    border: 2px solid red;
+    padding: 10px;
+}
+.formacion .contenido-seccion .info .col table{
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+.formacion .contenido-seccion .info .col table .datos{
+    width: 40%;
+    border-bottom: 1px solid grey;
+}
+.formacion .contenido-seccion .info .col table h4{
+    margin-top: 10px;
+}
+.formacion .contenido-seccion .info .col table h3{
+    font-size: 20px;
+    margin-top: 5px;
+}
+.formacion .contenido-seccion .info .col table p{
+    font-size: 14px;
+}
+.formacion .contenido-seccion .info .col table .promedio{
+    display: block;
+    color: red;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.formacion .contenido-seccion .info .col table .descripcion{
+    border-left: 1px solid gray;
+    padding-left: 20%;
+}
+
+/* SECCION CONTACTO */
+.contacto{
+    background-color: rgb(19, 9, 9);
+    padding: 140px 0 100px 0;
+    color: white;
+    text-align: center;
+}
+.contacto .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.contacto .contenido-seccion h3{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.contacto .contenido-seccion .fila{
+    display: flex;
+    justify-content: space-around;
+}
+.contacto .contenido-seccion .fila .col{
+    margin-top: 50px;
+}
+.contacto .contenido-seccion .fila .col h2{
+    color: chocolate;
+}
+
+/* FULL RESPONSIVE */
+@media screen and (max-width:800px){
+    .especialidades .contenido-seccion .fila{
+        display: block;
+    }
+    .especialidades .contenido-seccion .fila .col{
+        width: 100%;
+        text-align: center;
+    }
+    .especialidades .contenido-seccion .fila .col .cont-barra{
+        justify-content: center;
+    }
+    .sobremi .contenido-seccion .fila{
+        display: block;
+    }
+    .sobremi .contenido-seccion .fila .col{
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .formacion .contenido-seccion .info{
+        display: block;
+    }
+    .formacion .contenido-seccion .info .col{
+        width: 90%;
+        margin: auto;
+    }
+    .formacion .contenido-seccion .info .col .titulo{
+        display: block;
+        text-align: center;
+    }
+    .formacion .contenido-seccion .info .col table{
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    .contacto .contenido-seccion .fila{
+        display: block;
+    }
 }
