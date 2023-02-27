@@ -77,3 +77,22 @@ function pintarBarra (id_barra, cantidad, indice, interval){
 window.onscroll = function(){
     efectoEspecialidades();
 }
+
+
+/* redes clickeables */
+document.getElementById("facebook").addEventListener("click", function() {
+    window.location.href = "https://www.facebook.com/";
+  });
+  
+  document.getElementById("youtube").addEventListener("click", function() {
+    window.location.href = "https://www.youtube.com/";
+  });
+  
+  document.getElementById("instagram").addEventListener("click", function() {
+    window.location.href = "https://www.instagram.com/";
+  });
+  
+  document.getElementById("linkedin").addEventListener("click", function() {
+    window.location.href = "https://www.linkedin.com/";
+  });
+  
