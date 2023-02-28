@@ -81,7 +81,7 @@ window.onscroll = function(){
 }
 
 
-/* redes clickeables */
+//Redes clickeables 
 document.getElementById("facebook").addEventListener("click", function() {
     window.location.href = "https://www.facebook.com/";
   });
