@@ -74,7 +74,7 @@ html{
     text-decoration: none;
     background-color: black;
     color: chocolate;
-    border: 1px solid red;
+    border: 1px solid #91311D;
     border-radius: 50%;
     width: 40px;
     height: 40px;
@@ -93,7 +93,7 @@ html{
 .inicio .contenido-seccion .foto-charlie{
     max-width: 200px;
     border-radius: 50%;
-    border: 5px solid red;
+    border: 5px solid #91311D;
     position: absolute;
     left: 50%;
     top: 260px;
@@ -196,7 +196,7 @@ html{
 }
 .especialidades .contenido-seccion .barra{
     display: flex;
-    border: 1px solid red;
+    border: 1px solid #91311D;
     padding: 2px;
     border-radius: 3px;
     margin-right: 10px;
@@ -235,7 +235,7 @@ font-size: 30px;
     display: inline-block;
     color: red;
     font-weight: bold;
-    border: 2px solid red;
+    border: 2px solid #91311D;
     padding: 10px;
 }
 .formacion .contenido-seccion .info .col table{
@@ -258,7 +258,7 @@ font-size: 30px;
 }
 .formacion .contenido-seccion .info .col table .promedio{
     display: block;
-    color: red;
+    color: #91311D;
     margin-top: 10px;
     font-weight: bold;
 }
@@ -295,7 +295,7 @@ font-size: 30px;
 }
 
 /* FULL RESPONSIVE */
-@media screen and (max-width:800px){
+@media screen and (max-width:1700px){
     .especialidades .contenido-seccion .fila{
         display: block;
     }
