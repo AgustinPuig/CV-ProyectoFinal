@@ -103,6 +103,15 @@ html{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1.5rem;
 }
+#topButton {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: green;
+    font-size: 30px;
+  }
+  
 
 /* SECCION SOBRE MI*/
 .sobremi{
@@ -164,7 +173,7 @@ html{
     color: #fff;
 }
 .especialidades .contenido-seccion{
-    max-width: 1000px;
+    max-width: 100%;
     margin: auto;
     padding: 0 10px;
 }
@@ -324,3 +333,4 @@ font-size: 30px;
         display: block;
     }
 }
+
